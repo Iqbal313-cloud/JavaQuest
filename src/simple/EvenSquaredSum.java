@@ -15,5 +15,6 @@ public class EvenSquaredSum {
 
 
         System.out.println(sum.get());
+        System.out.println(reduce.get());
     }
 }

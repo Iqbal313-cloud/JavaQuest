@@ -9,7 +9,7 @@ public class CreateStreams {
 
     public static void main(String[] args) {
 
-        List<String> names = Arrays.asList("Abu basir", "Al-Gifari");
+        List<String> names = Arrays.asList("Abu Basir", "Al-Gifari");
 
         Stream<String> stream = names.stream();
 

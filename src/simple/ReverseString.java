@@ -19,5 +19,16 @@ public class ReverseString {
         String reversed = new StringBuilder(str).reverse().toString();
         System.out.println("Reversed: " + reversed);
 
+        char[] chars = str.toCharArray();
+
+        // Use a for-each loop, but build reversed string manually
+        String reversedv2 = "";
+        for (char c : chars) {
+            reversedv2 = c + reversedv2; // Prepend each character
+        }
+
+        System.out.println("Reversed string: " + reversedv2);
+
+
     }
 }
